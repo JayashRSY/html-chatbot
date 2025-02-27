@@ -9,19 +9,31 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ai-sdk/openai": "^1.1.14",
+    "@auth/unstorage-adapter": "^2.7.4",
+    "@prisma/client": "^6.4.1",
+    "@sentry/nextjs": "^9.2.0",
+    "ai": "^4.1.46",
+    "bcryptjs": "^3.0.2",
+    "html-css-chatbot": "file:",
+    "next": "15.1.7",
+    "next-auth": "^5.0.0-beta.25",
+    "openai-edge": "^1.2.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.7"
+    "unstorage": "^1.15.0",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
     "eslint": "^9",
     "eslint-config-next": "15.1.7",
-    "@eslint/eslintrc": "^3"
+    "postcss": "^8",
+    "prisma": "^6.4.1",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
