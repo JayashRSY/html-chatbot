@@ -19,9 +19,11 @@ Run the following command to install the necessary dependencies:
 Create a `.env.local` file in the root of your project and add the following environment variables:
 
 AUTH_GOOGLE_ID="your_google_auth_id_here"
+
 AUTH_GOOGLE_SECRET="your_google_auth_secret_here"
 
 AUTH_SECRET="your_auth_secret_here"
+
 NEXT_PUBLIC_OPENAI_API_KEY="your_openai_api_key_here"
 
 ### 4. Run the Project
